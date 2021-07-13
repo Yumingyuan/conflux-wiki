@@ -70,7 +70,7 @@ if __name__ == "__main__":
     flag = bytes.hex(os.urandom(BLOCK_SIZE // 8))
     k = int(flag, 16)
     C = Transducipher(k)
-    print("Your flag is PCTF{%s}" % flag)
+    print("Your flag is PCTF\{%s\}" % flag)
     with open("data1.txt", "w") as f:
         for i in range(16):
             pt = int(bytes.hex(os.urandom(BLOCK_SIZE // 8)), 16)
