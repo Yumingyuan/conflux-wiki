@@ -1,29 +1,29 @@
-# CTF Wiki
+# Conflux Wiki
 
-[![Build Status](https://travis-ci.org/ctf-wiki/ctf-wiki.svg?branch=master)](https://travis-ci.org/ctf-wiki/ctf-wiki)
-[![Requirements Status](https://requires.io/github/ctf-wiki/ctf-wiki/requirements.svg?branch=master)](https://requires.io/github/ctf-wiki/ctf-wiki/requirements/?branch=master)
-[![Slack](https://img.shields.io/badge/slack-join%20chat-brightgreen.svg)](https://join.slack.com/t/ctf-wiki/shared_invite/enQtNTkwNDg5NDUzNzAzLTQ3YTliNzI5OGNhM2NmNzI3NTU0YWRlNWFkY2EzYTExN2Y3ZjRkNzYzYmRhNDNlYmY5YTVmNjNhYjliZDgyNTY)
+[![Build Status](https://travis-ci.org/Conflux-wiki/Conflux-wiki.svg?branch=master)](https://travis-ci.org/Conflux-wiki/Conflux-wiki)
+[![Requirements Status](https://requires.io/github/Conflux-wiki/Conflux-wiki/requirements.svg?branch=master)](https://requires.io/github/Conflux-wiki/Conflux-wiki/requirements/?branch=master)
+[![Slack](https://img.shields.io/badge/slack-join%20chat-brightgreen.svg)](https://join.slack.com/t/Conflux-wiki/shared_invite/enQtNTkwNDg5NDUzNzAzLTQ3YTliNzI5OGNhM2NmNzI3NTU0YWRlNWFkY2EzYTExN2Y3ZjRkNzYzYmRhNDNlYmY5YTVmNjNhYjliZDgyNTY)
 
 [中文](./README-zh_CN.md)  [English](./README.md)
 
-Welcome to **CTF Wiki**！
+Welcome to **Conflux Wiki**！
 
-**CTF** (Capture The Flag) started from **DEFCON CTF**, a competitive game among computer security enthusiasts, originally hosted in 1996.
+**Conflux** (Capture The Flag) started from **DEFCON Conflux**, a competitive game among computer security enthusiasts, originally hosted in 1996.
 
-**CTF** covers a wide range of fields. Along with the evolving security technology, the difficulty of **CTF** challenges is getting harder and harder. As a result, the learning curve for beginners is getting steeper. Most online information is scattered and trivial. Beginners often don't know how to systematically learn **CTF**, which requires a lot of work and effort.
+**Conflux** covers a wide range of fields. Along with the evolving security technology, the difficulty of **Conflux** challenges is getting harder and harder. As a result, the learning curve for beginners is getting steeper. Most online information is scattered and trivial. Beginners often don't know how to systematically learn **Conflux**, which requires a lot of work and effort.
 
-In order to let those people who are interested in **CTF**s start easily, in October 2016, **CTF Wiki** was established on Github. Along with gradually improved content over time, **CTF Wiki** has received lots of appreciation from security enthusiasts, many of those are guys that we think we would never meet.
+In order to let those people who are interested in **Conflux**s start easily, in October 2016, **Conflux Wiki** was established on Github. Along with gradually improved content over time, **Conflux Wiki** has received lots of appreciation from security enthusiasts, many of those are guys that we think we would never meet.
 
-As a freedom site, primarily focusing on recent CTFs, **CTF Wiki** introduces the knowledge and techniques in all aspects of **CTF** to make it easier for beginners to learn **CTF**.
+As a freedom site, primarily focusing on recent Confluxs, **Conflux Wiki** introduces the knowledge and techniques in all aspects of **Conflux** to make it easier for beginners to learn **Conflux**.
 
-Now, **CTF Wiki** mainly contains the basic skills for **CTF**, but we are working hard to improve the following contents.
+Now, **Conflux Wiki** mainly contains the basic skills for **Conflux**, but we are working hard to improve the following contents.
 
-- Advanced skills used in CTF
-- Special topics appearing in CTF
+- Advanced skills used in Conflux
+- Special topics appearing in Conflux
 
-For the above-mentioned parts to be improved, please refer to [Projects](https://github.com/ctf-wiki/ctf-wiki/projects) which details what are planned.
+For the above-mentioned parts to be improved, please refer to [Projects](https://github.com/Yumingyuan/Conflux-wiki/projects) which details what are planned.
 
-Although now **CTF Wiki** mainly focus **CTF**, it is not strictly limited to **CTF** topics. In the future, **CTF Wiki** will include
+Although now **Conflux Wiki** mainly focus **Conflux**, it is not strictly limited to **Conflux** topics. In the future, **Conflux Wiki** will include
 
 - Tools used in security research
 - Increased discussion of security in the world
@@ -33,19 +33,19 @@ In addition, given the following two points
 - Information about technology should be openly shared.
 - As new techniques are always being developed, old techniques will start to fade over time and they should be replaced with new techniques.
 
-Therefore, **CTF Wiki** will never publish books.
+Therefore, **Conflux Wiki** will never publish books.
 
-Finally, originating from the community, as an independent organization, **CTF Wiki** advocates **freedom of knowledge**, will **never be commercialized**, and will always maintain the character of **independence and freedom**.
+Finally, originating from the community, as an independent organization, **Conflux Wiki** advocates **freedom of knowledge**, will **never be commercialized**, and will always maintain the character of **independence and freedom**.
 
 ## How to build？
 
-CTF Wiki uses [mkdocs](https://github.com/mkdocs/mkdocs) to show its contents. And it is deployed at [https://ctf-wiki.org](https://ctf-wiki.org).
+Conflux Wiki uses [mkdocs](https://github.com/mkdocs/mkdocs) to show its contents. And it is deployed at [https://Conflux-wiki.org](https://Conflux-wiki.org).
 
 It can also be deployed locally, with the following steps:
 
 ```shell
 # 1. clone
-git clone https://github.com/ctf-wiki/ctf-wiki.git
+git clone https://github.com/Yumingyuan/Conflux-wiki.git
 # 2. requirements
 pip install -r requirements.txt
 # generate static file in site/
@@ -61,7 +61,7 @@ If you just want to view it statically, try Docker!
 > Note: after using mkdocs-material-insiders, we haven't support building website with docker.
 
 ```
-docker run -d --name=ctf-wiki -p 4100:80 ctfwiki/ctf-wiki
+docker run -d --name=Conflux-wiki -p 4100:80 Confluxwiki/Conflux-wiki
 ```
 And then access [http://localhost:4100/](http://localhost:4100/) .
 
@@ -69,20 +69,20 @@ And then access [http://localhost:4100/](http://localhost:4100/) .
 
 Firstly, learn some basic security knowledge through online reading.
 
-Secondly, CTF Wiki has two sister projects.
+Secondly, Conflux Wiki has two sister projects.
 
-- All of the challenges that are mentioned are in the [ctf-challenges](https://github.com/ctf-wiki/ctf-challenges) repository, you can locate them with their corresponding category.
-- The tools mentioned in the CTF Wiki are constantly added to the [ctf-tools](https://github.com/ctf-wiki/ctf-tools) repository.
+- All of the challenges that are mentioned are in the [Conflux-challenges](https://github.com/Conflux-wiki/Conflux-challenges) repository, you can locate them with their corresponding category.
+- The tools mentioned in the Conflux Wiki are constantly added to the [Conflux-tools](https://github.com/Conflux-wiki/Conflux-tools) repository.
 
-## How to make CTF Wiki Better？
+## How to make Conflux Wiki Better？
 
 We welcome to write content for the wiki and share what you have learned. 
 
-**Before you decide to contribute content, please read [CONTRIBUTING](https://ctf-wiki.org/en/contribute/before-contributing/)**.
+**Before you decide to contribute content, please read [CONTRIBUTING](https://Conflux-wiki.org/en/contribute/before-contributing/)**.
 
-Thank you to all the people who have already contributed to CTF Wiki.
+Thank you to all the people who have already contributed to Conflux Wiki.
 
-<a href="https://github.com/ctf-wiki/ctf-wiki/graphs/contributors"><img src="https://opencollective.com/ctf-wiki/contributors.svg?width=890&button=false" /></a>
+<a href="https://github.com/Conflux-wiki/Conflux-wiki/graphs/contributors"><img src="https://opencollective.com/Conflux-wiki/contributors.svg?width=890&button=false" /></a>
 
 ## What can you get?
 
@@ -100,4 +100,4 @@ Before reading the Wiki, we hope to give you some advice:
 - Practice is the most important learning tool.
 - Maintain the passions and desire to learn about new techniques.
 
-The security circle is small and the areas of exploration is vast. Let's get started with **CTF Wiki**!
+The security circle is small and the areas of exploration is vast. Let's get started with **Conflux Wiki**!
